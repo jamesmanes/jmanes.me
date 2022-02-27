@@ -1,0 +1,23 @@
+import React from 'react';
+
+const BackgroundGrid = () => {
+    return(
+        <svg width="100%" height="100%" style="position: fixed">
+            <defs>
+                <pattern id="smallGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+                    <path d="M 8 0 L 0 0 0 8" fill="none" stroke="#7e777c" stroke-width="0.5"
+                            stroke-opacity="0.4"/>
+                </pattern>
+                <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+                    <rect width="80" height="80" fill="url(#smallGrid)"/>
+                    <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#7e777c" stroke-width="1"
+                            stroke-opacity="0.4"/>
+                </pattern>
+            </defs>
+
+            <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
+    )
+}
+
+export default BackgroundGrid;

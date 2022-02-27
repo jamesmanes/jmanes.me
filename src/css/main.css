@@ -1,0 +1,75 @@
+body {
+    background: #121012 linear-gradient(#121012, #3b363a) fixed;
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    color: white;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+p {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#navigation {
+    padding-top: 4px;
+}
+
+.navigation-item {
+    border: 1px solid #827980;
+    display: inline-block;
+    text-decoration: none;
+    background: #3b363a;
+    line-height: 30px;
+    width: 100px;
+}
+    .navigation-item:hover {
+        background-color: #827980;
+        cursor: pointer;
+    }
+    .navigation-item + .navigation-item {
+        border-left: 0;
+    }
+    .navigation-item:first-child {
+        border-radius: 4px 0 0 4px;
+    }
+    .navigation-item:last-child {
+        border-radius: 0 4px 4px 0;
+    }
+
+#content {
+    animation-fill-mode: forwards;
+}
+
+#main-view-pane {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    z-index: 9999;
+}
+
+#about {
+    margin: auto;
+}
+
+#photo {
+    border: 2px solid white;
+    background-size: 90%;
+    border-radius: 100%;
+    height: 128px;
+    width: 128px;
+    margin: auto;
+}
+
+#title {
+     font-size: 22pt;
+}

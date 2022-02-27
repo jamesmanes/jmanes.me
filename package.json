@@ -1,0 +1,32 @@
+{
+    "name": "jmanes.com",
+    "version": "3.0.0",
+    "description": "Personal website.",
+    "private": true,
+    "main": "index.js",
+    "author": "James Manes",
+    "browser": {
+        "[module-name]": false   
+    },      
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "dev": "webpack serve --open --config webpack.dev.js"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-react": "^7.16.0",
+        "babel-loader": "^8.2.0",
+        "babel-plugin-styled-components": "^2.0.0",
+        "css-loader": "^6.6.0",
+        "style-loader": "^3.3.0",
+        "html-webpack-plugin": "^5.5.0",
+        "webpack-dev-server": "^4.7.0",
+        "webpack": "^5.69.0",
+        "webpack-cli": "^4.9.0"
+    },
+    "dependencies": {
+        "react-dom": "^17.0.0",
+        "react": "^17.0.0"
+    }
+}
