@@ -27,6 +27,9 @@ const Avatar = styled.div`
         height: 150px;
         content: '';
     }
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 export default Avatar;
