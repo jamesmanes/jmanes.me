@@ -14,7 +14,17 @@ const Navigation = () => {
     }
 
     const ButtonContainer = styled.div`
-        margin-top: 20px
+        margin-top: 20px;
+        @media (max-width: 525px) {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 40px;
+            a:last-child {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+        }
     `
 
     return(

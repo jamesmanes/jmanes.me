@@ -32,7 +32,6 @@ const Button = ({ children, angle, href }) => {
         background: rgba(0, 0, 0, 0.3);
         margin: 6px;
         transform: rotate(-${props => props.angle}deg);
-
     `
 
     return (

@@ -13,6 +13,7 @@ const Avatar = styled.div`
     outline-offset: 10px;
     border-radius: 100%;
     margin-right: 20px;
+    margin-left: 20px;
     width: 150px;
     height: 150px;
     position: relative;
@@ -27,7 +28,7 @@ const Avatar = styled.div`
         height: 150px;
         content: '';
     }
-    @media (max-width: 768px) {
+    @media (max-width: 640px) {
         display: none;
     }
 `

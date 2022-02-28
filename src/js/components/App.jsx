@@ -17,6 +17,9 @@ const App = () => {
         color: white;
         padding: 20px;
         margin: 20px;
+        @media (max-width: 525px) {
+            width: 275px;
+        }
     `
     const OuterContainer = styled.div`
         display: flex;
