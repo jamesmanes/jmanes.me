@@ -10,22 +10,22 @@ const rotate = keyframes`
 const Avatar = styled.div`
     background-image: url(${Image});
     background-size: 100%;
-    outline-offset: 10px;
     border-radius: 100%;
     margin-right: 20px;
     margin-left: 20px;
     width: 150px;
     height: 150px;
     position: relative;
-    :before {
+    :after {
         animation: ${rotate} 60s linear infinite;
-        outline: 4px dotted rgba(255, 255, 255, 0.1);
         postion: absolute;
         display: block;
+        margin-top: -14px;
+        margin-left: -14px;
+        border: 4px dashed rgba(255,255,255,0.2);
         border-radius: 100%;
-        outline-offset: 10px;
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
         content: '';
     }
     @media (max-width: 640px) {

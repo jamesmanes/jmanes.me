@@ -1,7 +1,7 @@
 {
-    "name": "jmanes.com",
-    "version": "3.0.0",
-    "description": "Personal website.",
+    "name": "jmanes.me",
+    "version": "3.0.1",
+    "description": "Personal website of James Manes.",
     "private": true,
     "main": "index.js",
     "author": "James Manes",

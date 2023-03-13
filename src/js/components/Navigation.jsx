@@ -29,12 +29,12 @@ const Navigation = () => {
 
     return(
         <ButtonContainer>
-            <Button href="http://stackoverflow.com/story/jmanes" 
-                    angle={randomAngle()}>History</Button>
+            <Button href="mailto:contact@jmanes.email" 
+                    angle={randomAngle()}>E-Mail</Button>
             <Button href="https://www.linkedin.com/in/jamesmanes" 
                     angle={randomAngle()}>LinkedIn</Button>
-            <Button href="https://jmanes.blog" 
-                    angle={randomAngle()}>Blog</Button>
+            <Button href="https://fosstodon.org/@jmanes" 
+                    angle={randomAngle()}>Social</Button>
         </ButtonContainer>
     );
 }

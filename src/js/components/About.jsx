@@ -23,26 +23,28 @@ const About = () => {
 
     const Paragraph = styled.p`
         margin-bottom: 4px;
-        :last-child {
-            margin-top: 2px;
-        }
+        margin-top: 2px;
     `
 
     return(
         <About>
-            <Header>James Manes</Header>
+            <Header>💻 James Manes</Header>
             <div>
                 <Biography>
                     Senior Software Engineer passionate about clean code and concise
                     documentation.
                 </Biography>
                 <Paragraph>
-                🎓 Bachelor & Master of Science from <Link rel="noopener noreferrer" 
+                🎓 Bachelor of Science, Computer Science, <Link rel="noopener noreferrer" 
                         href="https://ucmo.edu" target="_blank">UCM</Link>.
                 </Paragraph>
                 <Paragraph>
-                💼 Currently employed at <Link rel="noopener noreferrer" 
-                        href="https://www.cerner.com/" target="_blank">Cerner Corporation</Link>.
+                🔐 Master of Science, Cybersecurity, <Link rel="noopener noreferrer" 
+                        href="https://ucmo.edu" target="_blank">UCM</Link>.
+                </Paragraph>
+                <Paragraph>
+                💼 Improving healthcare at <Link rel="noopener noreferrer" 
+                        href="https://www.oracle.com/" target="_blank">Oracle</Link>.
                 </Paragraph>
             </div>
         </About>
