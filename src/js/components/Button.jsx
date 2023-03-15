@@ -10,14 +10,10 @@ const Button = ({ children, angle, href }) => {
         text-align: center;
         line-height: 30px;
         min-width: 100px;
-        margin-left: 20px;
         user-select: none;
         color: white;
         transform: rotate(${props => props.angle}deg);
         transition: transform .2s;
-        :first-child {
-            margin-left: 0;
-        }
         :hover {
             text-decoration: underline;
             transform: scale(1.2);

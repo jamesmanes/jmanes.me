@@ -10,9 +10,7 @@ import Avatar from './Avatar';
 const App = () => {
     const Container = styled.div`
         background-color: rgba(255, 255, 255, 0.1);
-        font-family: "Raleway", sans-serif;
         border-radius: 14px;
-        font-size: 11pt;
         width: 350px;
         color: white;
         padding: 20px;

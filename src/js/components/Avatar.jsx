@@ -22,7 +22,7 @@ const Avatar = styled.div`
         display: block;
         margin-top: -14px;
         margin-left: -14px;
-        border: 4px dashed rgba(255,255,255,0.2);
+        border: 4px dotted rgba(255,255,255,0.1);
         border-radius: 100%;
         width: 170px;
         height: 170px;

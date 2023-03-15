@@ -9,7 +9,9 @@ import styled from 'styled-components';
 const About = () => {
 
     const About = styled.div`
-        
+        display: flex;
+        flex-direction: column;
+        font-size: 11pt;
     `
     const Link = styled.a`
         color: white;

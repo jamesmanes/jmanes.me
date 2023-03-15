@@ -14,6 +14,11 @@ const Navigation = () => {
     }
 
     const ButtonContainer = styled.div`
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 20px;
         margin-top: 20px;
         @media (max-width: 525px) {
             align-items: center;
