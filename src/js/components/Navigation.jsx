@@ -33,7 +33,7 @@ const Navigation = () => {
             <Button href="mailto:contact@jmanes.email" 
                     angle={randomAngle()}>E-mail</Button>
             <Button href="https://jmanes.blog/" 
-                    angle={randomAngle()}>Social</Button>
+                    angle={randomAngle()}>Blog</Button>
         </ButtonContainer>
     );
 }
