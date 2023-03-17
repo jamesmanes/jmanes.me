@@ -25,20 +25,14 @@ const Navigation = () => {
             justify-content: center;
             text-align: center;
             margin-top: 40px;
-            a:last-child {
-                margin-top: 20px;
-                margin-left: 0;
-            }
         }
     `
 
     return(
         <ButtonContainer>
             <Button href="mailto:contact@jmanes.email" 
-                    angle={randomAngle()}>E-Mail</Button>
-            <Button href="https://www.linkedin.com/in/jamesmanes" 
-                    angle={randomAngle()}>LinkedIn</Button>
-            <Button href="https://fosstodon.org/@jmanes" 
+                    angle={randomAngle()}>E-mail</Button>
+            <Button href="https://jmanes.blog/" 
                     angle={randomAngle()}>Social</Button>
         </ButtonContainer>
     );
